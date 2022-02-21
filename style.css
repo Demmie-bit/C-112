@@ -1,7 +1,7 @@
 body
 {
   color: white;
-  background: #c0d3ff;
+  background: #a6d3f8;
 }
 span
 {
@@ -32,8 +32,8 @@ span
 }
 label{
   font-size: 14px;
-  color: rgb(184, 250, 250); 
+  color: rgb(164, 201, 245); 
   padding: 6px;
   border-radius: 10px;
-  background-color: rgb(17, 76, 78);
+  background-color: rgb(80, 112, 148);
 }

@@ -1,39 +1,40 @@
-body
-{
-  color: white;
-  background: #a6d3f8;
+body{
+    background-color:#faf1d6 ;
 }
-span
-{
-  font-size: 30px;
+h1{
+    color: #74b6be;
+    background-color:#b6e3e9 ;
+    padding-top: 5px;
+    font-family: 'Comfortaa', cursive;
 }
-#camera , #result
-{
-  border: 2px dashed black;
-  width: 350px;
-  height: 300px; 
+
+#show_sketch{
+    float: right;
+    margin-right: 30px;
+    font-family: 'Comfortaa', cursive;
 }
-#result_emotion_name ,#result_emotion_name2  
-{
-  color: black;
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: hello;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
 }
-.emotion_name
-{
-  font-size: 40px;
+@keyframes hello{
+
+    from {box-shadow: 1px 1px 38px #e7a6a3;}
+    to {box-shadow: 1px 1px 38px #74b6be;}
 }
-.emoji
-{
-  font-size:48px;
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color:#74b6be;
+    font-family: 'Comfortaa', cursive;
 }
-.heading{
-  font-size: 18px;
-  border-radius: 10px;
-  letter-spacing: 10px;
-}
-label{
-  font-size: 14px;
-  color: rgb(164, 201, 245); 
-  padding: 6px;
-  border-radius: 10px;
-  background-color: rgb(80, 112, 148);
+#clearCanvas{
+    background-color:#e7a6a3 ;
+    color: white;
+    font-family: 'Comfortaa', cursive;
 }
